@@ -1,6 +1,10 @@
-# [Insert Pull Request Name]
+Please fill this `pull request` template by deleting and replacing the text.
 
-## Infos (to delete)
+---
+
+# Pull Request Name
+
+## Infos
 
 Please find a step-by-step tutorial in [the documentation](https://sticsrpacks.github.io/sandbox/articles/use-git-and-github.html#pull-request) about how to fill a pull request and ask for a review.
 
