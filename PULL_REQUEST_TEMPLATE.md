@@ -41,16 +41,15 @@ Please list or describe the tests that you ran to verify your changes. Provide i
 
 I explicitely ask for reviewers whenever possible, see [the documentation](https://sticsrpacks.github.io/sandbox/articles/use-git-and-github.html#pull-request) for doing so.
 
-## Checklist:
+## Checklist for the reviewers:
 
-- [ ] My code follows the style guidelines of this project
-- [ ] I have performed a self-review of my own code
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] My changes generate no new errors, warnings or notes using the package's or CRAN tests
-- [ ] I have added tests on the package that prove my fix is effective or that my feature works
-- [ ] New and existing unit tests pass locally with my changes
+- [ ] The code follows the style guidelines of this project
+- [ ] The code is commented, particularly in hard-to-understand areas
+- [ ] The documentation has been updated if necessary
+- [ ] The changes generate no new errors, warnings or notes during the tests (package or CRAN tests)
+- [ ] New tests have been added on the package to prove the fix is effective or the new feature works
+- [ ] New and existing unit tests pass locally and remotely with those changes
 
 If this pull request add breaking changes for other SticsRPacks packages: 
-- [ ] I informed the team from the other package of the changes to come
-- [ ] I proposed a pull request on their packages to account for the potential impacts of the changes
+- [ ] The team of the other package has been informed of the changes to come
+- [ ] Another pull request has been proposed on their package to account for the potential impacts of the changes (optional)
